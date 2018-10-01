@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartGame</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_produto">ProdutoActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_sobre_nos">SobreNosActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

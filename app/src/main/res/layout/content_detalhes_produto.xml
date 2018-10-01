@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetalhesProdutoActivity"
+    tools:showIn="@layout/activity_main2"
+    android:orientation="vertical"
+    android:background="#3d403d"
+    android:padding="16dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/ex_produto"
+                android:id="@+id/imgDetalheProduto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do Jogo"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:id="@+id/nomeDetalheProduto"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por:"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$40,00"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#098714"
+                android:id="@+id/valorDetalhe"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detalhes"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:id="@+id/txtDetalheProd"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veja Onde estamos"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:id="@+id/ondeEstamos"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
